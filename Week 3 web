@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking External CSS -->
+</head>
+<body>
+
+    <h1 class="title">Welcome to CSS Styling!</h1>
+
+    <!-- Image Styling -->
+    <img src="https://www.pexels.com/photo-url-example.jpg" alt="Styled Image" class="styled-image">
+
+    <!-- Paragraph Styling -->
+    <p id="description">This is a sample paragraph styled with external CSS.</p>
+
+</body>
+</html>
+
+/*CSS FILE*/
+
+/* Styling an image */
+.styled-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Styling text with an ID */
+#description {
+    color: darkgray;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+/* Styling headings with a class */
+.title {
+    font-size: 28px;
+    font-family: 'Georgia', serif;
+    color: blue;
+    text-align: center;
+    margin: 20px;
+}
